@@ -1,0 +1,25 @@
+{
+  "name": "stream-deck-api-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^11.1.0",
+    "imagemagick": "^0.1.3",
+    "jimp": "^0.16.2",
+    "lodash": "^4.17.21",
+    "lodash.throttle": "^4.1.1",
+    "node-hid": "^2.1.2",
+    "object-hash": "^3.0.0"
+  }
+}
