@@ -1,6 +1,6 @@
 # Streamdeck-Video-Player
 
-Rick Astley's Never Gonna Give You Up, on the Streamdeck- [Full Size](https://gfycat.com/cautiousfantasticbergerpicard)
+Rick Astley's Never Gonna Give You Up, on the Streamdeck - [HD Size](https://gfycat.com/cautiousfantasticbergerpicard)
 
 ![](https://thumbs.gfycat.com/CautiousFantasticBergerpicard-size_restricted.gif)
 
@@ -15,7 +15,7 @@ The Streamdeck was designed at most to play small GIFs on the buttons. This prog
 Videos are first processed via [FFMPEG for node.js](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) to extact single frames to hit a target FPS when processing. The single frames are then processed via (ImageMagick [for node.js](https://www.npmjs.com/package/imagemagick) to the correct size to fit into the 16:9 frame of the streamdeck, with the space between the images.
 
 ##
-Chainsaw Man Ending #3 - [Full Size](https://gfycat.com/euphoricimperfectbettong)
+Chainsaw Man Ending #3 - [HD Size](https://gfycat.com/euphoricimperfectbettong)
 
 ![](https://thumbs.gfycat.com/EuphoricImperfectBettong-size_restricted.gif)
 
@@ -28,9 +28,9 @@ There are 3 possible arguments to add:
 
 `"./path/to/video.mkv" [Should Generate Frames] [Target FPS] [Should Play on Streamdeck when Finished]`
 
-`[Should Generate Frames]` - If you have already generated the frames for a video, set to `false` to skip that part. Defaults to `true`.
-`[Target FPS]` - An integer of the expected framerate you want to play - see Limitations section for more info. Defaults to `15`.
-`[Should Play on Streamdeck when Finished]` - If you want to only generate frames, like on a computer that doesn't even have a streamdeck plugged in, set to `false`. Defaults to `true`.
+- `[Should Generate Frames]` - If you have already generated the frames for a video, set to `false` to skip that part. Defaults to `true`.
+- `[Target FPS]` - An integer of the expected framerate you want to play - see Limitations section for more info. Defaults to `15`.
+- `[Should Play on Streamdeck when Finished]` - If you want to only generate frames, like on a computer that doesn't even have a streamdeck plugged in, set to `false`. Defaults to `true`.
 
 For example, `"./path/to/video.mkv" false 15 true` would look for video.mkv's premade frames, then playback at 15fps.
 
@@ -48,6 +48,6 @@ For example, `"./path/to/video.mkv" false 15 true` would look for video.mkv's pr
 
 ##
 
-Bocchi the Rock Opening - [Full Size](https://gfycat.com/qualifiedsnoopybufeo)
+Bocchi the Rock Opening - [HD Size](https://gfycat.com/qualifiedsnoopybufeo)
 
 ![](https://thumbs.gfycat.com/QualifiedSnoopyBufeo-size_restricted.gif)
